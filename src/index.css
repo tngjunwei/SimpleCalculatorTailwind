@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calc-screen {
+  @apply flex mx-auto border-4  justify-center items-center text-4xl mt-10 py-5 text-white
+}
+
+.calc-key-container {
+  @apply grid grid-cols-5  mx-auto mt-10
+}
+
+.calc-keys {
+  @apply border-gray-200 border-2 m-5 p-4 shadow hover:scale-105 transition-all ease-in duration-100 
+  text-white text-2xl
+}
